@@ -10,6 +10,8 @@ provide a date with a month-day-year format,
 using the full name or abbreviation of a month
 and a four-digit year.
 
+Dates must be given in ascending order.
+
 Months are case-insensitive, and only the first
 three characters of the month are considered.
 
@@ -31,6 +33,9 @@ Invalid date formats include:
 
 Date formatting is not validated.
 Invalid formats are likely to raise exceptions or cause unexpected behavior.
+
+The order of the dates is not validated.
+Descending order is likely to raise exceptions or cause unexpected behavior.
 
 The existence of given dates *is* validated,
 and nonexistent dates will raise an exception.
