@@ -45,10 +45,9 @@ days_in_month = {
 
 
 def main():
-    print(days_between("June 19 1922", "Jun 19 1922"))
-    print(days_between("June 19 1922", "Jun 21 1922"))
-    print(days_between("June 19 1922", "July 14 1922"))
-    print(days_between("June 19 1922", "April 5 2014"))
+    date_start = input("Enter start date: ")
+    date_end = input("Enter end date: ")
+    print(days_between(date_start, date_end))
 
 
 def days_between(date_start, date_end):
