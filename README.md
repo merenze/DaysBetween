@@ -11,12 +11,13 @@ using the full name or abbreviation of a month
 and a four-digit year.
 
 Months are case-insensitive, and only the first
-three characters of the month are used.
+three characters of the month are considered.
 
 Do not use punctuation or special characters.
 
 Valid date formats include:
 * August 1 1992
+* fEbRuA 12 2003
 * Jan 04 1800
 * Mayasdfjkljw; 19 2022
 
